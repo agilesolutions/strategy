@@ -28,8 +28,7 @@ public class TestTDD {
         onboardingCase.thenApply(Strategy.priReview());
 
         // THEN
-        onboardingCase.thenApply(Strategy.verify(true));s
-
+        onboardingCase.thenApply(Strategy.verify(true));
 
 
     }
